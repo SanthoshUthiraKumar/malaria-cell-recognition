@@ -147,26 +147,21 @@ test_image_gen.classes
 predictions = pred_probabilities > 0.5
 print(classification_report(test_image_gen.classes,predictions))
 confusion_matrix(test_image_gen.classes,predictions)
-
 ```
 
 ## OUTPUT
 
 ### Training Loss, Validation Loss Vs Iteration Plot
-
-![328858061-8d085a1a-d62d-4922-a534-366291307796](https://github.com/SanthoshUthiraKumar/malaria-cell-recognition/assets/119477975/b8490243-aca5-46e0-80c4-92aff22a4d6d)
+![Output1](https://github.com/SanthoshUthiraKumar/malaria-cell-recognition/assets/119477975/2aa532c3-5c75-4dd0-9da0-6b57b2876d3a)
 
 ### Classification Report
-
-![326676697-9ff79fa3-bd2f-4aa0-8aca-236e8164e356](https://github.com/SanthoshUthiraKumar/malaria-cell-recognition/assets/119477975/99341202-d398-419e-8b29-a590b161875d)
+![Output2](https://github.com/SanthoshUthiraKumar/malaria-cell-recognition/assets/119477975/d6221207-2970-4bf5-a7a1-d8d4e8c8945e)
 
 ### Confusion Matrix
-
-![326676731-0942328b-8d53-49d8-ab7e-af8cdcaa42b9](https://github.com/SanthoshUthiraKumar/malaria-cell-recognition/assets/119477975/c5556dd6-8eb9-459c-8831-5a00b36a1ef2)
+![Output3](https://github.com/SanthoshUthiraKumar/malaria-cell-recognition/assets/119477975/2aa3bfc8-7d83-4c55-a725-3ffa9e3c3015)
 
 ### New Sample Data Prediction
-
-![326676831-f18d28f1-4664-4d4f-a84f-5b8980b62431](https://github.com/SanthoshUthiraKumar/malaria-cell-recognition/assets/119477975/f4bf8c36-3a1b-4590-9f38-ffec3e11fd0b)
+![Output4](https://github.com/SanthoshUthiraKumar/malaria-cell-recognition/assets/119477975/983b529e-749a-401c-bb55-1eac91339d64)
 
 ## RESULT:
 Thus a deep neural network for Malaria infected cell recognition and to analyze the performance is created using tensorflow.
